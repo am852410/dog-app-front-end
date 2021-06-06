@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ProfileScreen(props) {
-  // fetch(ENV.API + )
   console.log(props.user);
   console.log(props.dog);
   if (!props.user || !props.dog) {
@@ -24,6 +23,7 @@ export default function ProfileScreen(props) {
       <h3>{props.dog.age}</h3>
       <h3>{props.dog.weight}</h3>
       <h3>{props.dog.size}</h3>
+      <h3>{props.dog.additionalComments}</h3>
     </div>
   );
 }
