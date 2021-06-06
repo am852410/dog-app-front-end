@@ -15,27 +15,3 @@ function Parent() {
 }
 
 export default Parent;
-
-// const testObj = { hello: "world", foo: "bar", bestbfever: "tony" };
-//
-// const { hello } = testObj;
-// const hello = testObj['hello']
-// const hello = testObj.hello
-// console.log(hello) // 'world'
-//
-// const testArr = ['world', 'bar', 'wywa']
-//
-// const [hello, foo, favDoggo] = testArr
-// console.log(favDoggo) //wywa
-//
-// const hello = testArr[0]
-// const foo = testArr[1]
-// const favDoggo = testArr[2]
-//
-//
-// function useState() {
-//   const setString = (stringparam) => {
-//     string = stringparam
-//   }
-//   return ['string', setString]
-// }
