@@ -19,7 +19,7 @@ export default function LogIn() {
       body: JSON.stringify(body)
     }).then(response => {
       response.json();
-      console.log(response.json);
+      console.log(response.json());
     });
   };
   return (
