@@ -8,7 +8,7 @@ export default function LogIn() {
     const body = {
       cellPhone
     };
-    fetch(ENV.API + "/users/login", {
+    fetch(ENV.API + "/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
