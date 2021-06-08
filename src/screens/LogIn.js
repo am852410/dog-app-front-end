@@ -17,10 +17,12 @@ export default function LogIn() {
         mode: "no-cors"
       },
       body: JSON.stringify(body)
-    }).then(response => {
-      response.json();
-      console.log(response.json());
-    });
+    })
+      .then(response => response.json())
+      .then(respJson => {
+        console.log("respJson", respJson);
+      })
+      .catch(err => console.log("err", err));
   };
   return (
     <div>
