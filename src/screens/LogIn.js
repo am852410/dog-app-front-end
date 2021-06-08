@@ -13,8 +13,8 @@ export default function LogIn() {
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Headers": "Content-Type",
-        "Access-Control-Allow-Origin": "*",
-        mode: "no-cors"
+        "Access-Control-Allow-Origin":
+          "https://peacemakerdogwalkingcompany.herokuapp.com"
       },
       body: JSON.stringify(body)
     })
