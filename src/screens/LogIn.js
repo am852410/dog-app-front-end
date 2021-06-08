@@ -9,12 +9,11 @@ export default function LogIn() {
       cellPhone
     };
     fetch(ENV.API + "/login", {
-      method: "POST",
+      method: "post",
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Headers": "Content-Type",
-        "Access-Control-Allow-Origin":
-          "https://peacemakerdogwalkingcompany.herokuapp.com"
+        "Access-Control-Allow-Origin": "*"
       },
       body: JSON.stringify(body)
     })
